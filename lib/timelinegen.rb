@@ -26,9 +26,9 @@ class TimelineGen
   # Generates all event JSONs
   def self.parseEvents(file)
     pe = JSON.parse(File.read(file))
-    k = pe.length-1
+    k = pe.length
     event = Array.new
-    (0..5).each do |i|
+    (0..k).each do |i|
       event[i] = JSON.parse(
                             genEvent(
                                      (pe[i])["date"], 
@@ -56,3 +56,4 @@ class TimelineGen
   # Add method for adding timeline name
   # Add method for adding timeline text
 end
+
