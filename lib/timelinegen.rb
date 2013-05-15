@@ -23,12 +23,12 @@ class TimelineGen
   end
 
 
-  # Generate JSON for timeline
+  # Generates all event JSONs
   def self.parseEvents(file)
     pe = JSON.parse(File.read(file))
     k = pe.length-1
     event = Array.new
-    (0..k).each do |i|
+    (0..5).each do |i|
       event[i] = JSON.parse(
                             genEvent(
                                      (pe[i])["date"], 
@@ -40,17 +40,19 @@ class TimelineGen
     end
     return event
   end
-    
+  
+  # Generates full timeline JSON
   def self.genTimeline(event)
     JSON.pretty_generate(
                          "timeline" => {
-                           "headline" => "timeline name",
+                           "headline" => "   ",
                            "type" => "default",
-                           "text" => "text goes here",
+                           "text" => "   ",
                            "date" => event
                          }
                        )
   end
 
-  puts genTimeline(parseEvents("test.json"))
+  # Add method for adding timeline name
+  # Add method for adding timeline text
 end

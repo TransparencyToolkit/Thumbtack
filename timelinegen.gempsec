@@ -1,0 +1,12 @@
+Gem::Specification.new do |s|
+  s.name        = 'timelinegen'
+  s.version     = '0.0.0'
+  s.date        = '2013-05-15'
+  s.summary     = "TimelineJS JSON Generator"
+  s.description = "TimelineGen generates JSON files for use as TimelineJS data."
+  s.authors     = ["M. C. McGrath"]
+  s.email       = 'shidash@shidash.com'
+  s.files       = ["lib/timelinegen.rb"]
+  s.homepage    =
+    'https://github.com/Shidash/TimelineGen'
+end
