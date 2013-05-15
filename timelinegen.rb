@@ -9,6 +9,7 @@ class TimelineGen
       date.gsub!(" ",",")
       date.gsub!(":",",")
     end
+    date
   end
   
   # Generate JSON for event
@@ -23,19 +24,33 @@ class TimelineGen
 
 
   # Generate JSON for timeline
-  def self.genTimeline
-    firstEvent = JSON.parse genEvent("2010-01-12 18:53:08", nil, "test headline", "This is the text body of the email")
+  def self.parseEvents(file)
+    pe = JSON.parse(File.read(file))
+    k = pe.length-1
+    event = Array.new
+    (0..k).each do |i|
+      event[i] = JSON.parse(
+                            genEvent(
+                                     (pe[i])["date"], 
+                                     nil, 
+                                     (pe[i])["subject"], 
+                                     (pe[i])["body"]
+                                     )
+                            )
+    end
+    return event
+  end
+    
+  def self.genTimeline(event)
     JSON.pretty_generate(
                          "timeline" => {
                            "headline" => "timeline name",
                            "type" => "default",
                            "text" => "text goes here",
-                           "date" => [
-                                      firstEvent
-                                     ]
+                           "date" => event
                          }
                        )
   end
 
-  puts genTimeline
+  puts genTimeline(parseEvents("test.json"))
 end
