@@ -11,32 +11,31 @@ class TimelineGen
   def self.endDate(date)
     date
   end
-
-  #Get headline
-  def self.getHeadline(headline)
-    headline
-  end
-
-  def self.addText(text)
-    text
-  end
   
   #Generate JSON for event
-  def self.genEvent
+  def self.genEvent(sdate, edate, headline, text)
     JSON.pretty_generate(
-                         "date" => [
-                                    "startDate" => startDate("10,10,10"),
-                                    "endDate" => endDate(nil),
-                                    "headline" => getHeadline("test headline"),
-                                    "text" => addText("This is the text body of the email"),
-                                   ]
+                         "startDate" => startDate(sdate),
+                         "endDate" => endDate(edate),
+                         "headline" => headline,
+                         "text" => text
                         )
   end
 
+
   #Generate JSON for timeline
   def self.genTimeline
-    puts genEvent
-    puts genEvent
+    firstEvent = JSON.parse genEvent("10,10,10", nil, "test headline", "This is the text body of the email")
+    JSON.pretty_generate(
+                         "timeline" => {
+                           "headline" => "timeline name",
+                           "type" => "default",
+                           "text" => "text goes here",
+                           "date" => [
+                                      firstEvent
+                                     ]
+                         }
+                       )
   end
 
   puts genTimeline
