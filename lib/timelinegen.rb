@@ -53,7 +53,6 @@ class TimelineGen
                        )
   end
 
-  puts genTimeline(parseEvents("../../../../../Downloads/2scraper.json"))
   # Add method for adding timeline name
   # Add method for adding timeline text
 end
