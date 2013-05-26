@@ -7,8 +7,16 @@ To use TimelineGen, add this at the top of your files:
 require 'timelinegen'
 
 
-TimelineGen.genTimeline(event) is the method for generating a full timeline. It takes an array of JSON data as input.
+TimelineGen.genTimeline(event) 
 
-TimelineGen.genEvent(startDate, endDate, headline, text) is the method for generating JSON data for an event. It takes a start date, end date, headline, and text for input. All of these are strings.
+The method for generating a full timeline. It takes an array of JSON data as input.
 
-TimelineGen.parseDate(date) takes a date in the form of string like 2011-11-15 18:05:01 for input and converts it to the format used by TimelineJS. genEvent also calls this.
+
+TimelineGen.genEvent(startDate, endDate, headline, text) 
+
+The method for generating JSON data for an event. It takes a start date, end date, headline, and text for input. All of these are strings.
+
+
+TimelineGen.parseDate(date)
+ 
+This method takes a date in the form of string like 2011-11-15 18:05:01 for input and converts it to the format used by TimelineJS. genEvent also calls this.

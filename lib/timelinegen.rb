@@ -28,7 +28,7 @@ class TimelineGen
     pe = JSON.parse(File.read(file))
     k = pe.length
     event = Array.new
-    (0..k).each do |i|
+    (0..k-1).each do |i|
       event[i] = JSON.parse(
                             genEvent(
                                      (pe[i])["date"], 
@@ -53,6 +53,7 @@ class TimelineGen
                        )
   end
 
+  puts genTimeline(parseEvents("../../../../../Downloads/2scraper.json"))
   # Add method for adding timeline name
   # Add method for adding timeline text
 end
