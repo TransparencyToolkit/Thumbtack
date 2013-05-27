@@ -28,17 +28,15 @@ class TimelineGen
     pe = JSON.parse(File.read(file))
     k = pe.length
     event = Array.new
-    (1..k-1).each do |i|
-      if i > 0
+    (0..k-2).each do |i|
         event[i] = JSON.parse(
                               genEvent(
-                                       (pe[i])["date"], 
+                                       (pe[i+1])["date"], 
                                        nil, 
-                                       (pe[i])["subject"], 
-                                       (pe[i])["body"]
+                                       (pe[i+1])["subject"], 
+                                       (pe[i+1])["body"]
                                        )
                               )
-        end
     end
     return event
   end
