@@ -57,5 +57,11 @@ class TimelineGen
                          }
                        )
   end
+
+  def self.emailTimeline(file)
+    event = parseEvents(file)
+    headline = parseHeadline(file)
+    genTimeline(event, headline)
+  end
 end
 

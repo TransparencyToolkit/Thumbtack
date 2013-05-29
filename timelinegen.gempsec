@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'timelinegen'
-  s.version     = '0.0.3'
-  s.date        = '2013-05-15'
+  s.version     = '0.0.4'
+  s.date        = '2013-05-29'
   s.summary     = "TimelineJS JSON Generator"
   s.description = "TimelineGen generates JSON files for use as TimelineJS data."
   s.authors     = ["M. C. McGrath"]
