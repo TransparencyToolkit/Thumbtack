@@ -20,3 +20,13 @@ The method for generating JSON data for an event. It takes a start date, end dat
 TimelineGen.parseDate(date)
  
 This method takes a date in the form of string like 2011-11-15 18:05:01 for input and converts it to the format used by TimelineJS. genEvent also calls this.
+
+
+TimelineGen.parseHeadline(file)
+
+This parses and saves headlines on a page for a set of emails.
+
+
+TimelineGen.emailTimeline(file)
+
+This generates a timeline out of emails by calling parseEvents, parseHeadline, and genTimeline.
