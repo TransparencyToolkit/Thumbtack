@@ -11,6 +11,7 @@ language: deutsch
 
 *Max. 3 Projektbeispiele angeben (mit Link)*
 
+
 In der Zeit von 2013 bis 2015 war ich Mitbegründer des Projekts Mailpile. Meine Aufgaben waren neben der Finanzierung, vorallem das Design und verschiedenen Problemstellungen der Softwareentwicklung im Bereich der Userinterfaces.
 Das Ziel von Mailpile ist es, PGP verschlüsselte E-Mails für jedermann bereit zu stellen.
 https://mailpile.is
