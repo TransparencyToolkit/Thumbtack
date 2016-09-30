@@ -41,7 +41,7 @@ https://transparencytoolkit.org/projects/
 
 *Max. 1000 Zeichen*
 
-Die meisten Neuigkeiten werden in Zeitungen veröffentlicht. Der Erzählstrang des Textes verfolgt dabei den immer gleichen Aufbau: Wer hat wann was gemacht und warum. Ein Trend der derzeitigen Berichterstattungen sind Artikel mit immer weniger Inhalt und schlechtem Faktencheck. Geschuldet ist das durch immer kleinere Budgets und enormer Zeitdruck. Die Wahrheit über Fakten lassen sich als Leser selten nachvollziehen. Hinzukommt der Informationsüberfluss durch Maßenhafte veröffentlichungen auf Webseiten und Social Media. Jede Veröffentlichung zu einem Thmea präsentiert eine etwas andere Sicht auf den Sachverhalt.
+Die meisten Neuigkeiten werden in Zeitungen veröffentlicht. Der Erzählstrang des Textes verfolgt dabei den immer gleichen Aufbau: Wer hat wann was gemacht und warum. Ein Trend der derzeitigen Berichterstattungen sind Artikel mit wenig Inhalt und schlecht recherchierten Fakten. Geschuldet ist das durch schrumpfende Budgets und enormen Zeitdruck. Die Wahrheit über Fakten lassen sich als Leser selten nachvollziehen. Hinzukommt der Informationsüberfluss durch Maßenhafte veröffentlichungen auf Webseiten und Social Media. Jede Veröffentlichung zu einem Thmea präsentiert eine etwas andere Sicht auf den Sachverhalt.
 Ein Beispiel: Artikel A lässt eine Tatsache aus ihrer Berichterstattung aus. Artikel B bringt einen scheinbaren Fakt hinzu. Artikel C berichtet mit überrpüften Quellen zu den Fakten, welche zu Artikel A und B im widerspruch stehen. Artikel A und B werden aber nicht korregiert. Die Glaubwürdigkeit von Nachrichten wird durch dieses Verhalten geschwächt.
 
 
