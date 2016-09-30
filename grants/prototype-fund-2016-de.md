@@ -11,18 +11,15 @@ language: deutsch
 
 *Max. 3 Projektbeispiele angeben (mit Link)*
 
-
 In der Zeit von 2013 bis 2015 war ich Mitbegründer des Projekts Mailpile. Meine Aufgaben waren neben der Finanzierung, vorallem das Design und verschiedenen Problemstellungen der Softwareentwicklung im Bereich der Userinterfaces.Das Ziel von Mailpile ist es, PGP verschlüsselte E-Mails für jedermann bereit zu stellen.
 https://mailpile.is
 
 *From 2013 to 2015 I co-founded, fundraised, and was the sole designer of the Mailpile which project focused on bringing usable PGP encryption to email. I also performed software engineering duties for all interface related aspects. https://mailpile.is*
 
-
 Anfang 2015 habe ich mich dem Aufbau der Open Source Design Community angeschlossen. Mit dieser Gruppe soll der Open Source Gedanken stärker in die Design Community getragen werden und Open Source Projekte mit einem guten Design zu unterstützen. Damit Projekte ihre "Jobs" im Bereich Design veröffentlichen können, gibt es eine Art Schwarzes Brett auf Basis von GitHub. Darüber können sich interessierte für Jobs melden und diese Bearbeiten.
 http://opensourcedesign.net
 
 *In early 2015 I helped bootstrap the Open Source Design community which is a group of contributors bringing good design and usability to open source projects via a "jobs" board that is run 100% transparently using GitHub repositories and is entirely open for anyone to participate http://opensourcedesign.net*
-
 
 Im Frühjahr 2015 schloß ich mich außerdem dem Projekt 'Transparency Toolkit' als Designer und Softwareentwickler an. Das Toolkit beinhaltet Open Source Software, welche sogenannte 'open source intelligence data' (Daten die öffentlich zugänglich sind) aus unterschiedlichen Quellen zu sammeln (zB Facebook, Twitter) und zu visualisierien.
 Außerdem habe ich mit dem Amnesty International Sicherheitsforscher Claudio Guarnieri DigitalFreedom.io ins Leben gerufen. Digital Freedom nutzt die Datenpakete der Open Knowledge Foundation und generiert daraus einen Datenkatalog.
@@ -35,7 +32,7 @@ https://transparencytoolkit.org/projects/
 
 *Max. 140 Zeichen*
 
-...
+Thumbtack
 
 ### Welches Problem willst Du mit Deinem Projekt lösen? Was ist Deine Motivation?
 
@@ -59,7 +56,6 @@ Thumbstack ist eine Art Mapping Tool für Geschichten. Es löst das Problem von 
 Der klassische Weg eines Journalisten um eine Geschichte zu schreiben ist es, Informationen zu sammeln von unterschiedlichen Quellen um eine Geschichte zu schreiben.. 
 Das Endprodukt sollte eine Berichterstattung sein, die so nah wie möglich an die Wahrheit heran kommt. Gute Artikel beinhalten Zitate aus Quellen, wie Dokumente, Emails und/oder Interviews.
 ThumbTack ist eine Webapp die von einzelne Journalisten oder Gruppen genutzt werden kann, um Infirmationen zu Sammeln, verifizieren und um Fakten zu überprüfen. Nutzern soll es Möglich sein Beweise und Zitate beizusteuern.
-
 
 *Traditional journalism starts with a lead for a story, then progresses to collecting information from sources to produce a narrative. The final stage is writing to accurately convey the truth. Good journalism contains numerous citations to source material such as documents, emails, or coroborated quotations from interviews. ThumbTack is an open source web application can be used by a solo journalist or part of a collaborative crowd sourced effort to collect information that can verified and fact checked at all times. Thumbtack allows users to submit evidence and citations from raw source material as well as verifiable facts gleened from already published articles across differing versions of a story (e.g. multiple publications) and numerous media formats or sources (e.g. news posts, leaked documents, archives, RSS feeds, Twitter, and other web APIs).*
 
