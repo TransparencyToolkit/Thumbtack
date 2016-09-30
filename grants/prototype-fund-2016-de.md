@@ -66,6 +66,7 @@ https://transparencytoolkit.org/projects/
 ### Wie viele Arbeitsstunden wirst Du in einem Zeitraum von 6 Monaten vermutlich für die Umsetzung der Projektidee benötigen?*
 
 *Bitte eine Zahl eintragen.*
+880 H
 
 ...
 
