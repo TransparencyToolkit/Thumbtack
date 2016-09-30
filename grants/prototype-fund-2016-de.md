@@ -45,7 +45,11 @@ Die meisten Neuigkeiten werden in Form von Text in Zeitungen veröffentlicht. De
 Ein Beispiel: Artikel A lässt eine Tatsache aus ihrer Berichterstattung aus. Artikel B bringt einen scheinbaren Fakt hinzu. Artikel C berichtet mit überrpüften Quellen Fakten, welche zu Artikel A und B im widerspruch stehen. Artikel A und B werden aber nicht korregiert. Die Richtigkeit und Integrität von Nachrichten werden durch dieses Verhalten geschwächt.
 
 
-*Die Richtigkeit und Integrität von Nachrichten werden durch diese Faktoren geschwächt und gefährden damit die Öffentlichkeit gegenüber Propaganda von Regierungen, Unternehmen und einzelnen Personen.*
+Die Richtigkeit und Integrität von Nachrichten werden durch diese Faktoren geschwächt und gefährden damit die Öffentlichkeit gegenüber Propaganda von Regierungen, Unternehmen und einzelnen Personen.
+
+
+*Almost all news published in paper form and on the internet are text based narratives like "who did what, where, when, to whom, and why". Presently, we see far more articles in volume but with shorter content length and bad fact checking due to small budgets. The truth is getting harder to ascertain. Additionally, the increasingly fast pace of internet publishing and social media, another problem that emerges is information overload. Consider, multiple publications with differing views and biases report on the same topic or event. What commonly happens is Publication A will omit one fact, while Publication B will embellish a supporting non-fact, and Publication C will present a hard fact that is contradictory of the other two points. 
+Meanwhile, a source may confirm the inaccuracy as reported by Publication A and B on Twitter but the original articles will never be updated and people may never learn the truth as Publication C is less popular. All of these factors put accuracy and integrity of news at risk, which make the public vulnerable to persausion and propaganda from both governments and corporations.*
 ...
 
 ### Wie wird Dein Projekt dieses Problem lösen?*
