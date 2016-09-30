@@ -41,7 +41,7 @@ The result of all data input into ThumbTack will be a timeline based data visual
 
 *2000 chars*
 
-Depending on the given use case ThumbTack has two target audiences. The first audience is solo and teams of journalists working on stories who will benefit from an intuitive and easy to use interface that helps them keep track of collected data points and narratives. The second audience will be the general public who is browsing the internet and is interested in current world events that revolve around complicated narratives.
+Depending on the given use case Thumbtack has two target audiences. The first audience is solo and teams of journalists working on stories who will benefit from an intuitive and easy to use interface that helps them keep track of collected data points and narratives. The second audience will be the general public who is browsing the internet and is interested in current world events that revolve around complicated narratives.
 
 By design, Thumbtack will support open data formats whenever possible so as to integrate with other tools and platforms. Implemented correctly, an additional use case will be that Thumbtack timelines can be embedded or offered as companion pieces alongside traditional articles, similar to how DocumentCloud offers source documents with highlighted notations.
 
@@ -74,6 +74,27 @@ Thumbtack will be able to use data collected from Harvester as well the full-tex
 
 *1500 chars*
 
-being completed...
+My estimation for creating the full implemenation of Thumbtack interface, workflows, and backend software engineering will take at least 1300 hours of work depending on which features are chosen and how much funding I raise. I estimate that the minimum application functionality for a beta version will take six months working 40 hours per week (880 hours + 80 hrs for vacation). I am breaking the project down into three separate milestones which I plan to execute in this order:
+
+Public Web Viewable Interface:
+
+- Create multiple design wireframes of how Thumbtack timeline will look
+- Collect testing stories with accompanying data to demonstrate multiple use cases
+- Create high-resolution design rendering of how "timeline" aspect of application will look and function
+- Engineer front-end web interface and JavaScript libraries that render data from simple markdown files
+
+Identify Contributor Workflows:
+
+- Collaborate with test users willing to conduct research on topics of interest
+- Create user experience work flows diagrams based on collaborations
+- Create development specification for said work flows
+
+Build User Contribution Application:
+
+- Create design renderings of user interface for adding all types of data to Thumbtack
+- Engineer simple user contribution methods (Google Documents, Data Packages, Twitter, and Github)
+- Integrate with Harvester and LookingGlass as data backends
+- Engineer basic user permission system for reviewing user submitted data
+
 
 
