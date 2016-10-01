@@ -48,7 +48,6 @@ Thumbstack ist ein Open Source Tool und eine Oberfläche um Eigenschaften von Ve
 Es gibt, abhängig von der jeweiligen Nutzungsweise, zwei Zielgruppen für ThumbTack. Die erste Gruppe sind einzelne oder als Team agierende Journalisten, deren Arbeit von einer intuitiven und einfach zu nutzenden Oberfläche profitert, welche ihnen dabei hilft, gesammelte Daten und Narrative im Auge zu behalten. Die zweite Zielgruppe ist die allgemeine Öffentlichkeit. Diejenigen Personen, die im Internet surfen und sich für das aktuelle Weltgeschehen interessieren, welches sich um komplizierte Narrative dreht. ThumbTack wird entwickelt, um Open-Data Formate bei jeder Gelegenheit zu unterstützen und um andere Werkzeuge und Plattformen zu integrieren. Wenn es richtig implementiert wird, ergibt sich eine weitere Nutzungsmöglichkeit. ThumbTacks Zeitleisten können in reguläre Artikel
 eingebettet oder ergänzend zu ihnen genutzt werden, ähnlich der Art in der DocumentCloud die Verwendung von Quellen mit hervorgehobenen Anmerkungen erlaubt. Ein Beispiel für die Nutzung könnte folgendes sein: "Wird Terroristen durch Verschlüsselung geholfen, da sie die Arbeit der Geheimdienste erschwert?" Wenn man die allgemeine Bevölkerung befragt, welche sehr wenig über Verschlüsselung weiß, sieht man, dass es einen Trend hin zu der Meinung gibt, dass Verschlüsselung defintiv ein Problem für staatliche Organisationen darstellt. Im Gegensatz dazu wird bei der Befragung von Verteidigern des Rechts auf Privatsphäre und Experten für Computersicherheit häufig darauf hingewiesen, dass es zahlreiche Belege dafür gibt, dass in den vor kurzer Zeit in Europa verübten Angriffen, Verschlüsselung irrelevant war, da die Terroristen diese bei der Planung ihrer Angriffe gar nicht nutzen. Demnach lag der Grund für das Versagen, diese Angriffe zu unterbinden in Fehlern bei der Sammlung und Analyse von Geheimdienstinformationen.Mit ThumbTack, kann jeder Satz im vorherigen Absatz und die ihm folgenden Behauptungen zitiert und mit unterstützenden und überprüfbaren Beweisen belegt werden. Diese sind bis zu den niedrigeren Zoomstufen (z.Bsp. Punkt 2 und Punkt 3) recherchiert und bieten daher ein verständlicheres und wahrheitsgemäßeres Bild der Geschehenisse wie es auch in den höheren Zoomstufen (z.Bsp. Punkt 1) skizziert und beschrieben sind. Erzählungen, die öffentlich publiziert werden, sind ein Gewinn für das öffentliche Interesse und helfen dabei, eine besser informierte Gesellschaft hervorzubringen.
 
-
 ### Hast Du schon an der Idee gearbeitet? Wenn ja, beschreibe kurz den aktuellen Stand und erkläre die Neuerung.*
 
 *Max. 1000 Zeichen (Link, falls verfügbar)*
@@ -75,3 +74,22 @@ Thumbtack wird in der Lage sein, die von Harvester gesammelten Daten sowie die V
 ### Skizziere kurz die wichtigsten Meilensteine Deines Projekts.*
 
 *Max. 1500 Zeichen*
+
+Meiner Einschätzung nach wird die Implementierung des Thumbtack-Interface, der Workflows sowie der Back-End Software mindestens 1.300 Arbeitsstunden in Anspruch nehmen – abhängig davon, welche Features ausgewählt werden und welchen Umfang die Finanzierung haben wird. Eine minimale Funktionalität einer Beta-Version kann nach etwa sechs Monaten erreicht werden (bei 40 Wochenstunden). Das Projekt unterteilt sich in drei seperate Phasen mit folgender zeitlicher Priorisierung:
+
+Öffentlich zugängliches Interface:
+- mehrere Wireframes zur Optik der Thumbtack-"Timeline"
+- Sammeln verschiedener Narrative und Daten, um die Funktionalität in unterschiedlichen Fällen zu demonstrieren
+- High-Resolution Renderings der Optik sowie der Funktion der "Timeline"-Anwendung
+- Erstellen eines Front-End Interface und von JavaScript-Sammlungen
+
+Workflows der Mitwirkenden indentifizieren:
+- Zusammenarbeit mit Test-Usern, die sich bereit erklären, Erkenntnisse zu verschiedenen Themen zusammenzutragen
+- Erstellen von Diagrammen der Workflows der User, basierend auf deren Zusammenarbeit
+- Spezifikationen für besagte Workflows erstellen
+
+Beteiligung der User:
+- Design Renderings eines User-Interface, um Daten zu Thumbtack hinzuzufügen
+- einfach Methode der User-Beteiligung (Google Docs, Data Packages, Twitter, Github)
+- Integration von Harvester und LookingGlass als Back-Ends für die Daten
+- Erstellen eines grundlegenden Systems der Zugangserlaubnis für User, um Daten zu Daten zu sichten und hinzuzufügen
